@@ -1,0 +1,22 @@
+[{
+        "nama": "Wilden Ali",
+        "nim": "11710001",
+        "email": "wildenali@mail.com",
+        "jurusan": "Teknik Mencuci",
+        "idDosenWali": 1
+    },
+    {
+        "nama": "Dody Fer",
+        "nim": "11710002",
+        "email": "dody@mail.com",
+        "jurusan": "Teknik Mencangkul",
+        "idDosenWali": 2
+    },
+    {
+        "nama": "Erik Dul",
+        "nim": "11710003",
+        "email": "rik@mail.com",
+        "jurusan": "Teknik Menjilat",
+        "idDosenWali": 2
+    }
+]

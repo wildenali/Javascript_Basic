@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="divid"></div>
+    <br>
+    <div id="divid1"></div>
+    <br>
+    <div id="divid2"></div>
+    <br>
+    <div id="divid3"></div>
+    <br>
+    <div id="divid4"></div>
+    <br>
+    <div id="divid5"></div>
+    <script>
+        var mobil = ["Avanza", "Agya", "Ayla"];
+        console.log(mobil[0]); 
+        document.getElementById('divid').innerHTML=mobil[2];
+
+        var mobil = ["Avanza", "Agya", "Ayla"];
+        mobil[0]="Fortuner";
+        console.log(mobil[0]);
+
+        var mobil = ["Avanza", "Agya", "Ayla","Fortuner","BMW", "Kijang"];
+        console.log(mobil.length);
+        document.getElementById('divid1').innerHTML="Jumlah Elemen Array Mobil "+mobil.length;
+
+        var mobil = ["Avanza", "Agya", "Ayla","Fortuner","BMW", "Kijang"];
+        var mobilPertama = mobil[0];
+        var mobilTerakhir = mobil[mobil.length -1]; 
+        console.log("Mobil Pertama adalah "+mobilPertama);
+        console.log("Mobil Terakhir adalah "+mobilTerakhir);
+        document.getElementById('divid2').innerHTML="Mobil Pertama adalah "+mobilPertama;
+        document.getElementById('divid3').innerHTML="Mobil Terakhir adalah "+mobilTerakhir;
+
+        var mobil = ["Avanza", "Agya", "Ayla"];
+        var buah = ["pisang", "pepaya", "rambutan"];
+        console.log("Saya telah memiliki banyak mobil antara lain "+mobil.toString()); 
+        document.getElementById('divid4').innerHTML="Saya suka buah-buahan "+buah.toString();
+
+        var mobil = ["Avanza", "Agya", "Ayla"];
+        var buah = ["pisang", "pepaya", "rambutan"];
+        console.log("Saya telah memiliki banyak mobil antara lain "+mobil.join(" * ")); 
+        document.getElementById('divid5').innerHTML="Saya suka buah-buahan "+buah.join(" dan ");
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="data"></div>
+    <script>
+        for (var i = 0; i < 5; i++) {
+            console.log(i)
+        }
+
+        var text="";
+        for (let i = 0; i < 5; i++) {
+            text +="Nilai saat ini " + i + "<br>";
+            document.getElementById("data").innerHTML = text;
+        }
+        
+        var tekss="";
+        var ii=0;
+        while(ii<10)
+        {
+            console.log("While: Nilai saat ini "+ii);
+            ii++;
+        }
+
+        var k=0;
+        do 
+        {
+            console.log("Do While: Nilai saat ini "+k);
+            k++;
+        }
+        while(k<5)
+    </script>
+</body>
+</html>
