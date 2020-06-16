@@ -32,7 +32,8 @@ body {
     position: relative;
 }
 
-.card .nama, .card .telp {
+.card .nama,
+.card .telp {
     display: block;
     line-height: 20px;
     padding: 0 5px;
